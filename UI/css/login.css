@@ -1,0 +1,98 @@
+.container{
+	width:50%;
+	background-color:white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin:0px auto;
+    margin-top:3em;
+    box-sizing: border-box;
+}
+#form_title{
+	width:95%;
+	background: rgb(43, 42, 42);
+	padding:8px 10px;
+	color:white;
+}
+#form_title p{
+	text-align:center;
+	color: white;
+}
+#body{
+	margin-top:1em;
+    padding-left:10px;
+	padding-bottom:2em;
+	
+}
+label{
+	color:black;
+	font-size:18px;
+	font-family:sans-serif;
+}
+.container input[type='text'], input[type='password'], input[type='date'], select
+{
+	width:90%;
+	padding:10px;
+	border-radius:3px;
+	border:2px solid white;
+	border-bottom:2px solid rgb(75, 110, 145);
+	margin-top:1em;
+}
+
+#buttons1
+{
+	background: #45d882;
+	color: white;
+	height: 40px;
+	width: 40%;
+	border: 0px;
+	transition: 0.7s;
+
+
+}
+#buttons2
+{
+	background: #c91922;
+	color: white;
+	height: 40px;
+	width: 40%;
+	border: 0px;
+	transition: 0.7s;
+
+
+}
+#buttons
+{
+	background: #45d882;
+	color: white;
+	height: 40px;
+	width: 30%;
+	border: 0px;
+	transition: 0.7s;
+
+
+}
+#buttons1:hover
+{
+	background:  white;
+	color: #3f6bbc;
+	height: 50px;
+	width: 49%;
+	border: 0px;
+	transition: 0.7s;
+	font-size: 15px;
+	transition-delay: 0.1s;
+	transition-timing-function: ease-out;
+	border: 2px solid #3f6bbc;
+}
+#buttons2:hover
+{
+	background:  white;
+	color: #d31424;
+	height: 50px;
+	width: 49%;
+	border: 0px;
+	transition: 0.7s;
+	font-size: 15px;
+	transition-delay: 0.1s;
+	transition-timing-function: ease-out;
+	border: 2px solid #3f6bbc;
+}

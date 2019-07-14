@@ -1,0 +1,157 @@
+*
+body
+{
+	background: grey;
+	padding: 0px;
+	margin: 0px;
+	font-family: arial;
+}
+
+.all
+{
+	height: auto;
+	width: 90%;
+    margin-left: 5%;
+}
+.title
+{
+	background:#2F4F4F;
+	padding: 5px;
+    font-family: tahoma;    
+	height: auto;
+	box-shadow: 0px 10px 30px 5px rgba(2, 2, 2, 0.8);;
+
+	min-height: 50px;
+} 
+
+.menus
+{
+	height: auto;
+	min-height: 50px;
+	transition: width 2s;
+	margin-left:10%; 
+
+}
+.menus a{
+
+color: #F0F0F0;
+padding: 20px;
+text-decoration: none;
+}
+
+.menusleft
+{
+	background: #d0d3cf;
+	margin-top: 2px;
+	height: auto;
+	min-height: 615px;
+	min-width: 150px;
+	transition: width 2s;
+	border-top: 2px solid #3e8e41;
+	border-bottom: 2px solid #3e8e41;
+	position: absolute;
+	float: left;
+	margin-top: 50px;
+}
+
+.content
+{
+	background: #F0F0F0;
+	height: auto;
+	min-height: 700px;
+	position: inherit;
+
+}
+.content_cancel{
+	background: #F0F0F0;
+	height: auto;
+	position: inherit;
+}
+#cancel td{
+	text-align: center;
+}
+.footer
+{
+	background:#2F4F4F;
+	padding: 50px;
+	color: white;
+	min-height: 50px;
+
+}
+#top
+{
+	background:  white;
+	color: #3f6bbc;
+	height: 40px;
+	border: 0px;
+	transition: 0.7s;
+	border: 2px solid #3f6bbc;
+
+
+}
+#top:hover
+{
+
+	background:  #3f6bbc;
+	color: white;
+	height: 40px;
+	width: 80px;
+	border: 0px;
+	transition: 0.7s;
+	font-size: 15px;
+	transition-delay: 0.1s;
+	transition-timing-function: ease-out;
+}
+#searchbtn
+{
+	background: #3f6aaa;
+	color: white;
+	height: 35px;
+	width: 80px;
+	border: 0px;
+	transition: 0.7s;
+	transition-timing-function: ease-in;
+	float: right;
+	margin-top: 5px;
+
+}
+.search
+ {
+height: 5px;
+background: #1B2F38;
+}
+.search #searchbtn:hover
+{
+	background:  white;
+	color: #3f6bbc;
+	height: 35px;
+	width: 80px;
+	border: 0px;
+	transition: 0.7s;
+	font-size: 15px;
+	transition-delay: 0.1s;
+	transition-timing-function: ease-out;
+	float: right;
+	margin-top: 5px;
+    border: 1px solid #3f6bbc;
+}
+.search #searchfield
+{
+	height: 32px;
+	width: 300px;
+	float: right;
+	margin-top: 5px;
+	border: 1px solid #3f6bbc;
+    font-family: arial;
+	font-size: 20px;
+	border-bottom-left-radius: 15px 15px;
+
+}
+ .bus1 img{
+	width: 20%;
+	height: 20%;
+}
+.contact ul{
+	width: 50%;
+
+}
