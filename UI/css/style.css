@@ -1,27 +1,14 @@
-*
-body
-{
-	background: grey;
-	padding: 0px;
-	margin: 0px;
-	font-family: arial;
-}
-
 .all
 {
-	height: auto;
-	width: 90%;
-    margin-left: 5%;
+	height:100%;
+	width: 100%;
 }
 .title
 {
 	background:#2F4F4F;
-	padding: 5px;
     font-family: tahoma;    
-	height: auto;
-	box-shadow: 0px 10px 30px 5px rgba(2, 2, 2, 0.8);;
-
-	min-height: 50px;
+	height: 100%;
+	width: 100%;
 } 
 
 .menus
@@ -30,6 +17,8 @@ body
 	min-height: 50px;
 	transition: width 2s;
 	margin-left:10%; 
+	display: flex;
+	
 
 }
 .menus a{
@@ -37,21 +26,7 @@ body
 color: #F0F0F0;
 padding: 20px;
 text-decoration: none;
-}
-
-.menusleft
-{
-	background: #d0d3cf;
-	margin-top: 2px;
-	height: auto;
-	min-height: 615px;
-	min-width: 150px;
-	transition: width 2s;
-	border-top: 2px solid #3e8e41;
-	border-bottom: 2px solid #3e8e41;
-	position: absolute;
-	float: left;
-	margin-top: 50px;
+flex: 70%;
 }
 
 .content
@@ -78,30 +53,6 @@ text-decoration: none;
 	min-height: 50px;
 
 }
-#top
-{
-	background:  white;
-	color: #3f6bbc;
-	height: 40px;
-	border: 0px;
-	transition: 0.7s;
-	border: 2px solid #3f6bbc;
-
-
-}
-#top:hover
-{
-
-	background:  #3f6bbc;
-	color: white;
-	height: 40px;
-	width: 80px;
-	border: 0px;
-	transition: 0.7s;
-	font-size: 15px;
-	transition-delay: 0.1s;
-	transition-timing-function: ease-out;
-}
 #searchbtn
 {
 	background: #3f6aaa;
@@ -115,12 +66,7 @@ text-decoration: none;
 	margin-top: 5px;
 
 }
-.search
- {
-height: 5px;
-background: #1B2F38;
-}
-.search #searchbtn:hover
+.menus #searchbtn:hover
 {
 	background:  white;
 	color: #3f6bbc;
@@ -135,8 +81,9 @@ background: #1B2F38;
 	margin-top: 5px;
     border: 1px solid #3f6bbc;
 }
-.search #searchfield
+.menus #searchfield
 {
+	display: flex;
 	height: 32px;
 	width: 300px;
 	float: right;
@@ -144,7 +91,7 @@ background: #1B2F38;
 	border: 1px solid #3f6bbc;
     font-family: arial;
 	font-size: 20px;
-	border-bottom-left-radius: 15px 15px;
+	border-radius:15px 15px 15px 15px;
 
 }
  .bus1 img{
@@ -154,4 +101,339 @@ background: #1B2F38;
 .contact ul{
 	width: 50%;
 
+}
+hr {
+	width: 100%; 
+	height: 3px; 
+	background: white; 
+	border:none; 
+}
+b{
+	 color: white;
+}
+#about-us .container{
+	display: flex;
+	align-items: center;
+	max-width: 100%;
+	text-align: center; 
+	padding-left:0px;   
+}
+.container p{
+	font-size: 1.25rem;
+	text-align: center;
+	align-content: center;
+}
+#about-us{
+    background-color:#F0F0F0;
+    margin-top: 50px;
+    color: #000;
+    text-align: center;
+    padding-bottom: 50px;
+	padding-top: 10px;
+}
+#contact-us{
+	background-color:#F0F0F0;
+    margin-top: 50px;
+    color: #000;
+    text-align: center;
+    padding-bottom: 50px;
+	padding-top: 10px;
+	
+}
+#contact-us li{
+	list-style-type: none;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: #273538;
+    color: white;
+    font-size: 16px;
+    margin-right: 50px;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+
+}
+/* top buttons*/
+.top a {
+        float: right;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      
+}
+.dropbtn:hover {
+
+	background-color:#3e8e41;
+	}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.content img{
+	width: 49%;
+	height: 100px;
+
+}
+.content #bus1, #bus2, #bus3{
+	width: 49%;
+	height: 50%;
+}
+/* buttons in menu with anchor */
+.dropbtn a {
+
+    text-decoration: none;
+    color: white;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.footer table
+{
+    float: right;
+}
+.footer img:hover
+{
+opacity: 0.5;
+cursor: pointer;
+transition-delay: 0.4s;
+transition: 0.5s;
+}
+#cancel table{
+    width: 100%;
+}
+
+.footer table
+{
+    float: right;
+}
+.footer img:hover
+{
+opacity: 0.5;
+cursor: pointer;
+transition-delay: 0.4s;
+transition: 0.5s;
+}
+.icons img{
+    width: 20px;
+    height: 20px;
+}
+.icons p{
+    color: #fff;
+    text-align: center;
+    align-content: center;
+    padding-right: 75%;
+}
+.icons{
+    padding-left: 40%;
+}
+.container{
+	width:50%;
+	background-color:white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin:0px auto;
+    margin-top:3em;
+    box-sizing: border-box;
+}
+#form_title{
+	width:95%;
+	background: rgb(43, 42, 42);
+	padding:8px 7px;
+	color:white;
+}
+#form_title p{
+	text-align:center;
+	color: white;
+}
+#body{
+	margin-top:1em;
+    padding-left:10px;
+	padding-bottom:2em;
+	
+}
+label{
+	color:black;
+	font-size:18px;
+	font-family:sans-serif;
+}
+.container input[type='text'], input[type='password'], input[type='date'], select
+{
+	width:90%;
+	padding:10px;
+	border-radius:3px;
+	border:2px solid white;
+	border-bottom:2px solid rgb(75, 110, 145);
+	margin-top:1em;
+}
+
+#buttons1
+{
+	background: #45d882;
+	color: white;
+	height: 40px;
+	width: 40%;
+	border: 0px;
+	transition: 0.7s;
+
+
+}
+#buttons2
+{
+	background: #c91922;
+	color: white;
+	height: 40px;
+	width: 40%;
+	border: 0px;
+	transition: 0.7s;
+
+
+}
+#buttons
+{
+	background: #45d882;
+	color: white;
+	height: 40px;
+	width: 30%;
+	border: 0px;
+	transition: 0.7s;
+
+
+}
+#buttons1:hover
+{
+	background:  white;
+	color: #3f6bbc;
+	height: 50px;
+	width: 49%;
+	border: 0px;
+	transition: 0.7s;
+	font-size: 15px;
+	transition-delay: 0.1s;
+	transition-timing-function: ease-out;
+	border: 2px solid #3f6bbc;
+}
+#buttons2:hover
+{
+	background:  white;
+	color: #d31424;
+	height: 50px;
+	width: 49%;
+	border: 0px;
+	transition: 0.7s;
+	font-size: 15px;
+	transition-delay: 0.1s;
+	transition-timing-function: ease-out;
+	border: 2px solid #3f6bbc;
+}
+td{
+	align-content: center;
+}
+.title img{
+	width: 20px;
+	height: 20px;
+}
+#logo{
+	color: #F0F0F0;
+}
+#logo img{
+	width:  100px;
+	height: 50px;
+}
+.homeImage img{
+width: 100%;
+height: 20%;
+}
+.row {
+	display: flex;
+  }
+  .column1{
+	flex: 100%;
+	background-color:white;
+	border-radius: 20px;
+  }
+  .column1 img{
+  width: 99%;
+  height: 80%;
+  border-radius: 20px;
+  }
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+
+
+@media 
+only screen and (max-width: 300px),
+(min-width: 300px) and (max-width: 1024px)  {
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	td:nth-of-type(1):before { content: "Trip id"; }
+	td:nth-of-type(2):before { content: "Seating"; }
+	td:nth-of-type(3):before { content: "Orgin"; }
+	td:nth-of-type(4):before { content: "Destination"; }
+	td:nth-of-type(5):before { content: "Trip Date"; }
+	td:nth-of-type(6):before { content: "Action"; }
+	td:nth-of-type(7):before { content: "Action"; }
 }
