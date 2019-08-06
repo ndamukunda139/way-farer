@@ -1,5 +1,9 @@
 # way-farer
 This is the preparation project of Andela's bootcamp
+## Overview 
+Wayfarer project has been developed using html,css,and Javascript.
+It is for transport company where the users and admin cn perform below main features.
+
 ### Main features
 1. User can Sign up and Sign in.
 2. Admin can create and cancel a trip
