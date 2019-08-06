@@ -1,6 +1,6 @@
 # way-farer
 This is the preparation project of Andela's bootcamp
-## Overview 
+### Overview 
 Wayfarer project has been developed using html,css,and Javascript.
 It is for transport company where the users and admin cn perform below main features.
 
@@ -12,3 +12,10 @@ It is for transport company where the users and admin cn perform below main feat
 5. User can view all bookings
 6. A trip can be deleted
 7. A trip can filtered either by origin or destination
+
+### Technologies
+
+Javascript, html and css for front end
+Nojes and express for backend framework
+Testing Framework: Mocha or Jasmine  
+
