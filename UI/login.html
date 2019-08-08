@@ -1,32 +1,22 @@
 
 <!DOCTYPE html>
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/menus.css">
-<link rel="stylesheet" type="text/css" href="css/login.css">
+<link rel="stylesheet" type="text/css" href="js/main.js">
+
 <html>
 <head>
-	<br>
-	<div class="all">
+<div class="all">
 <div class="title">
-<table>
-		<tr>
-			<TD valign="bottom" align="left">  <img src="img/logo2.jpg" height="100" width="100">
-				<b style=" color: white;  "> Way Farer </b>
-				</TD>
-			</tr>
-			<tr>
-			<td align="center">  <hr  style="width: 200px; height: 3px; background: white; border:none; "></td>
-		</tr>
-
-
-</table>
-<br><br>
+<p id="logo"><span><img src="img/logo2.jpg" alt="Way farer logo">
+</span>Way farer</p>
+<br>
          <div class="menus">
 				<a href="index.html">Home</a>
-				<a href="#">About</a>
-			    <a href="index.html">Contact</a>
+				<a href="about.html">About</a>
+			    <a href="contact.html">Contact</a>
 				<a href="trips.html">All Trips</a>
-			
+				<!-- <input type="text" name="" id="searchfield" placeholder="Search " >
+				<input type="submit" name="" value="search" id="searchbtn"> -->
          </div>
 
 
@@ -34,10 +24,10 @@
 
 <div class="content">
 <div   class="container">
-		<div id="form_title"><P>LOGIN FORM</P></div>
+		<div id="form_title"><p>LOGIN FORM</p></div>
 		<div id="body">
-	<form action="" name="myForm">
-		<label>Username:</label>
+	<form action="" name="myForm" onsubmit="return(validate());">
+		<label>Email:</label>
 		<input type="text" name="email" autocomplete="none" placeholder="Enter Username"><br><br>
 		<label>Password:</label>
 		<input type="password" name="pass"  placeholder="Enter password">
@@ -54,39 +44,29 @@
 
 
 
-<hr  style="width: 100%; height: 3px; background: white; border:none; ">
+<hr>
 <div class="footer">
 		<div class="menus">
               <a href="index.html">Home</a>
-              <a href="#">About</a>
+              <a href="about.html">About</a>
               <a href="index.html">Contact</a>
               <a href="trips.html">All Trips</a>
               
         </div>
         <div class="icons">
-				<p>&copy; 2019 WayFarer.com</p>
-				   <img src="img/whatsapp.png" id="icons">
-                   <img src="img/facebook.png" id="icons">
-                   <img src="img/linkedin-logo.png" id="icons">
-                   <img src="img/twitter.png" id="icons">
-                   <img src="img/youtube.png" id="icons">
+			<p>&copy; 2019 WayFarer.com</p>
+			<img src="img/whatsapp.png" id="icons">
+			<img src="img/facebook.png" id="icons">
+			<img src="img/linkedin-logo.png" id="icons">
+			<img src="img/twitter.png" id="icons">
+			<img src="img/youtube.png" id="icons">
            
              </div>
 		 
 </div>
-<hr  style="width: 100%; height: 3px; background: white; border:none; ">
-
-	</div><!--Close of content-->
+<hr >
+</div><!--Close of content-->
 </div>
 </div>
-
 </body>
-</div>
 </html>
-<br>
-
-
-</body>
-</div>
-</html>
-<br>
