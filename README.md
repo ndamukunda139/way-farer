@@ -37,7 +37,7 @@ First ensure that you have Nodejs and npm installed in your computer
 3. Run the application
    ```npm run dev```
    
-   ### EndPoint
+### EndPoint
    
 POST	/auth/signup	User create an account
 
