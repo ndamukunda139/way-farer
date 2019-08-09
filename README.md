@@ -1,5 +1,8 @@
 # way-farer
 This is the preparation project of Andela's bootcamp
+[![Coverage Status](https://coveralls.io/repos/github/ndamukunda139/way-farer/badge.svg)](https://coveralls.io/github/ndamukunda139/way-farer)
+[![Maintainability](https://api.codeclimate.com/v1/badges/d5fad93978a4931012cd/maintainability)](https://codeclimate.com/github/ndamukunda139/way-farer/maintainability) [![Build Status](https://travis-ci.org/ndamukunda139/way-farer.svg?branch=develop)](https://travis-ci.org/ndamukunda139/way-farer)
+
 ### Overview 
 
 Wayfarer project has been developed using html,css,and Javascript.
