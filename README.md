@@ -55,3 +55,36 @@ PATCH	/trip/<:trip-id>/trip	cancel the trip
 
 GET	/bookings/Get all bokking
 
+### Tools and Modules
+
+The tools and modules employed in this project are:
+
+Internet Connection<br/>
+Git<br/>
+npm<br/>
+A test suite e.g Mocha and Chai<br/>
+JSON Web Token<br/>
+bcryptjs<br/>
+Node pg<br/>
+Express Validator Module<br/>
+Swagger-ui-express<br/>
+debug<br/>
+eslint<br/>
+babel<br/>
+
+
+### Running Tests
+Tests are run by calling npm test after installing and setting up testing suites:
+
+Mocha<br/>
+Chai<br/>
+Chai HTTP<br/>
+
+### How to get a local copy and Use
+Clone repository
+
+-copy the link to the project from github website<br/>
+-create a folder on local machine<br/>
+-cd in to the folder and call a git init<br/>
+-git clone repository<br/>
+-npm install to install development dependencies<br/>
