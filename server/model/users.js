@@ -1,4 +1,5 @@
- const users = [{
+ const users = [
+     {
     id: 1,
     email:'ndamukunda139@gmail.com',
     first_name: 'daniel',

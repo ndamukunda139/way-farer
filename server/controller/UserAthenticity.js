@@ -20,7 +20,7 @@ class AuthController {
               email, password
             };
         
-        return res.status(200).json({status: `Welcome${email}`, credential});
+        return res.status(200).json({status: `Welcome   ${email}`, credential});
        }
 }
 
